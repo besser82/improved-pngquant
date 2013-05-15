@@ -1,0 +1,2664 @@
+Björn Esser <bjoern.esser@gmail.com>	2013-05-14
+
+    enhanced gitignore
+
+Björn Esser <bjoern.esser@gmail.com>	2013-05-14
+
+    created autotools-files
+
+Björn Esser <bjoern.esser@gmail.com>	2013-05-14
+
+    removing obsoleted files
+
+Björn Esser <bjoern.esser@gmail.com>	2013-05-14
+
+    add AUTHORS file
+
+Björn Esser <bjoern.esser@gmail.com>	2013-05-14
+
+    renamed docs accordingly added
+    symlink README -> README.md
+
+Björn Esser <bjoern.esser@gmail.com>	2013-05-14
+
+    moving pngquant-sources to separate
+    subdir
+
+Kornel Lesiński <kornel@geekhood.net>	2013-05-14
+
+    Fixed reference to png_image
+
+Samuli Suominen <ssuominen@gentoo.org>	2013-05-10
+
+    Prevent conflict with libpng16
+    by renaming png_image with
+    rwpng_png_image
+
+Kornel Lesiński <kornel@geekhood.net>	2013-05-10
+
+    Re-add zlib as a dependency
+
+    Some builds of libpng don't have
+    zlib baked in
+
+Kornel Lesiński <kornel@geekhood.net>	2013-05-06
+
+    Support
+    liq_attr_create_with_allocator(NULL,NULL)
+
+Kornel Lesiński <kornel@geekhood.net>	2013-05-06
+
+    Free outname
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-26
+
+    Version bump
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-26
+
+    DLL
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-26
+
+    MAKEFLAGS syntax fix
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-25
+
+    Makefile for dist
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-26
+
+    Show SSE status in -h
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-26
+
+    Fixed Cocoa build
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-21
+
+    Whitespace
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-26
+
+    Use less precise remapping if
+    images are posterized
+
+    Avoids edge case where all pixels
+    take slow search path
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-26
+
+    Don't cache float pixels if
+    contrast map is not used
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-25
+
+    Avoided parallel memory allocation
+    race in openmp version
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-25
+
+    Per-thread buffers for
+    liq_image_get_row_rgba() callbacks
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-24
+
+    Better estimation of hash size when
+    building hash row-wise
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-24
+
+    Compute histogram in one call
+    if possible
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-24
+
+    Fast and rough palette search
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-23
+
+    Nearest search likely guess
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-24
+
+    Fixed performance regression caused
+    by fixed alpha color search
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-23
+
+    No special-casing transparent
+    pixels when counting remapping
+    error
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-24
+
+    Fixed mempool align
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-23
+
+    Static array size declaration
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-23
+
+    Fixed rounding error in
+    iebug-handling filtering
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-22
+
+    Swapped order of arguments in
+    liq_set_quality()
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-22
+
+    LIQ_PRIVATE to hide library-private
+    symbols
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-22
+
+    Thread-safe gamma lookup table
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-20
+
+    Tweaked quality to give meaningful
+    number for very low number of
+    colors
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-20
+
+    Make mempool correct insufficient
+    malloc alignment
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-17
+
+    When averaging pick colors farther
+    from center
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-19
+
+    Speed goes up to 11
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-19
+
+    Make Windows version default to
+    using SSE
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-21
+
+    Protect against int overflow
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-19
+
+    Mark stack when user callback
+    crashes
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-19
+
+    Mark stack when user bitmap pointer
+    causes crash
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-19
+
+    Mark stack when user struct pointer
+    causes crash
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-19
+
+    Switching to uchar for noise map
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-19
+
+    Blur using uchar rather than float
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-18
+
+    Expose quantization error as
+    "quality"
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-18
+
+    Slightly more compressible palette
+    order
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-18
+
+    Short option Q for quality
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-18
+
+    Don't build contrast maps if
+    exceeding memory limit
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-18
+
+    Don't convert entire image if
+    exceeding memory limit
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-18
+
+    Check when memory allocation fails
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-18
+
+    Cleaner conversion to float-image
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-18
+
+    Modify image alpha on the fly
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-17
+
+    Convert image lazily
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-17
+
+    Blend at predefined opacity
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-18
+
+    Moved min_opaque_val to image
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-19
+
+    Use fast zlib compression when
+    speed=10
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-16
+
+    Removed outdated advice on building
+    own libpng
+
+    Added info about the lib
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-14
+
+    Warn that C99 is required.
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-17
+
+    Avoid memory write contention in
+    Voronoi iteration state update
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-11
+
+    OpenMP fix
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-14
+
+    Made library use same gamma for
+    output
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-11
+
+    Folded liq_remapping_result into
+    liq_result
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-11
+
+    Documentation
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-17
+
+    Use custom allocators in pam.c
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-14
+
+    Check use-after-free error
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-09
+
+    Catch invalid struct pointers
+    passed to library methods
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-09
+
+    Support for custom pixel formats
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-09
+
+    Renamed rgb_pixel to rgba_pixel
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-09
+
+    Convert image to float pixels ahead
+    of time
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-09
+
+    Allocate both dithering error lines
+    at once
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-08
+
+    Removed static array size
+    declaration
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-08
+
+    image_get_row
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-07
+
+    Changed liq_image ownership_flags
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-07
+
+    Updated copyright notices
+
+Kornel Lesiński <kornel@geekhood.net>	2013-02-24
+
+    Configurable allocator in mempool
+
+Kornel Lesiński <kornel@geekhood.net>	2013-02-23
+
+    Custom allocator
+
+Kornel Lesiński <kornel@geekhood.net>	2013-02-23
+
+    Use dither map more often if
+    using openmp
+
+Kornel Lesiński <kornel@geekhood.net>	2013-02-23
+
+    Whitespace
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-06
+
+    Separate makefile for the lib
+
+Kornel Lesiński <kornel@geekhood.net>	2013-02-09
+
+    Separate verbose_printf for lib
+    and tool
+
+Kornel Lesiński <kornel@geekhood.net>	2013-02-09
+
+    Split functions between pngquant
+    and the lib
+
+Kornel Lesiński <kornel@geekhood.net>	2013-02-08
+
+    Copied pngquant.c as a base for
+    libimagequant
+
+Kornel Lesiński <kornel@geekhood.net>	2013-02-10
+
+    Moved SSE check
+
+Kornel Lesiński <kornel@geekhood.net>	2013-02-09
+
+    Implicit log flush
+
+Kornel Lesiński <kornel@geekhood.net>	2013-02-09
+
+    liq_get_remapped_palette
+
+Kornel Lesiński <kornel@geekhood.net>	2013-02-03
+
+    Explicit remap result object
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-22
+
+    Dupe colormap
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-20
+
+    Mapfile support
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-29
+
+    Moved all speed settings in
+    one place
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-13
+
+    Allow NULL in _destroy functions
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-13
+
+    liq_image_create
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-13
+
+    Avoiding re-generating dither map
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-13
+
+    Refactored remapping and palette
+    rounding
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-13
+
+    Encapsulated creation of liq_attr
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-13
+
+    Separated pngquant options from
+    liq_attr
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-12
+
+    Renamed pngquant_image to liq_image
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-13
+
+    Passing liq_image
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-12
+
+    Moved remapping settings to result
+    object
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-12
+
+    Quantize function and liq_result
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-12
+
+    Renamed pngquant_image to liq_image
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-11
+
+    Log callback setters
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-11
+
+    Setters for options
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-11
+
+    Renamed reqcolors to max_colors
+
+Kornel Lesiński <kornel@geekhood.net>	2012-12-22
+
+    Renamed pngquant_options to
+    liq_attr
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-08
+
+    Restored support for output row
+    pointers
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-19
+
+    Reduced banding caused by dithering
+    error clamping
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-20
+
+    Whitespace/formatting
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-20
+
+    Avoid quantization if possible
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-06
+
+    Silenced build warning
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-07
+
+    Removed outdated assertion
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-03
+
+    Fixed search for colors far away
+    from available palette colors
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-03
+
+    Minor terminology change
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-03
+
+    Fixed search for semitransparent
+    colors
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-03
+
+    Use boolean
+
+Kornel Lesiński <kornel@geekhood.net>	2013-03-02
+
+    Use linear search if number of
+    colors is <= 16
+
+Kornel Lesiński <kornel@geekhood.net>	2013-02-26
+
+    RPM
+
+Kornel Lesiński <kornel@geekhood.net>	2013-02-26
+
+    Release 1.8.3
+
+Kornel Lesiński <kornel@geekhood.net>	2013-02-25
+
+    Updated manpage
+
+Kornel Lesiński <kornel@geekhood.net>	2013-02-21
+
+    Simplified optimization flags
+
+Kornel Lesiński <kornel@geekhood.net>	2013-02-21
+
+    Removed direct zlib dependency
+
+Kornel Lesiński <kornel@geekhood.net>	2013-02-20
+
+    Variable hash size
+
+Kornel Lesiński <kornel@geekhood.net>	2013-02-19
+
+    Variable mempool size
+
+Kornel Lesiński <kornel@geekhood.net>	2013-02-20
+
+    Reduced padding
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-29
+
+    Changed linker variables overrides
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-30
+
+    Ensure project is rebuilt when
+    makefile flags change
+
+Kornel Lesiński <kornel@geekhood.net>	2013-02-19
+
+    Dropped unused arg
+
+Kornel Lesiński <kornel@geekhood.net>	2013-02-19
+
+    Reduced amount of signed/unsigned
+    conversions
+
+Kornel Lesiński <kornel.lesinski@bazaarvoice.com>	2013-02-19
+
+    Avoid padding
+
+Kornel Lesiński <kornel.lesinski@bazaarvoice.com>	2013-02-19
+
+    Fixed error in dithering clamping
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-29
+
+    Avoid dithering areas that have
+    little error
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-24
+
+    Dynamic dithering max error
+    limiting
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-21
+
+    Nice dither
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-21
+
+    Adjusted MSE to match ImageMagick
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-21
+
+    Increased max error limit
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-21
+
+    In color similarity use average
+    instead of max
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-20
+
+    Faster color search
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-20
+
+    Reduce bad histogram weights
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-20
+
+    Assume rgb can't be < 0
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-20
+
+    Fixed saving of 16-color images
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-19
+
+    Encapsulated Cocoa reader in rwpng
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-18
+
+    Revert "Fixed invalid gamma when
+    input/output gamma differs"
+
+    This reverts commit
+    0246c7b0d964cba8a9a37760535731de0b8bc445.
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-12
+
+    Slightly faster IE6-alpha update
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-16
+
+    Default filter on 24-bit images
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-16
+
+    Added sRGB chunk
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-16
+
+    Fixed handling of row pointers when
+    saving 24-bit image
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-12
+
+    Moved creation of row_pointers
+    to rwpng
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-13
+
+    LUT for gamma
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-12
+
+    Changed internal gamma to 0.55
+
+Kornel Lesiński <kornel@geekhood.net>	2012-12-16
+
+    Moved palette sorting to
+    quantization step
+
+Kornel Lesiński <kornel@geekhood.net>	2012-12-15
+
+    Moved hist hash table out of pam
+
+Kornel Lesiński <kornel@geekhood.net>	2012-12-16
+
+    Output image mem cleanup
+
+Kornel Lesiński <kornel@geekhood.net>	2012-12-15
+
+    Explicit palette
+    generation/remapping steps
+
+Kornel Lesiński <kornel@geekhood.net>	2012-12-15
+
+    acolorhash_table holds maxcolors
+    and ignorebits
+
+Kornel Lesiński <kornel@geekhood.net>	2012-12-15
+
+    Exposed hash alloc/free methods
+
+Kornel Lesiński <kornel@geekhood.net>	2012-12-16
+
+    Moved libpng critical section down
+
+Kornel Lesiński <kornel@geekhood.net>	2012-12-15
+
+    Modified image flag
+
+Kornel Lesiński <kornel@geekhood.net>	2012-12-15
+
+    Image mem cleanup
+
+Kornel Lesiński <kornel@geekhood.net>	2012-12-15
+
+    Moved edge/noise bitmaps to image
+    struct
+
+Kornel Lesiński <kornel@geekhood.net>	2012-12-15
+
+    Moved hash state to
+    acolorhash_table
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-12
+
+    Version bump
+
+Kornel Lesiński <kornel@geekhood.net>	2013-01-12
+
+    Fixed invalid gamma when
+    input/output gamma differs
+
+Kornel Lesiński <kornel@geekhood.net>	2012-12-17
+
+    Makefile fixes
+
+    Link libgomp statically, MinGW
+    library order
+
+Kornel Lesiński <kornel@geekhood.net>	2012-12-15
+
+    Reduced copypasta
+
+Kornel Lesiński <kornel@geekhood.net>	2012-12-15
+
+    Restructured inlined hash entries
+
+Kornel Lesiński <kornel@geekhood.net>	2012-12-15
+
+    Make dist improvements
+
+Kornel Lesiński <kornel@geekhood.net>	2012-12-15
+
+    RPM spec
+
+Kornel Lesiński <kornel@geekhood.net>	2012-12-14
+
+    Fixed alpha corruption in Cocoa
+    reader
+
+Merge: 92bf036 6d01b40
+Kornel Lesiński <kornel@geekhood.net>	2012-12-14
+
+    Merged pull request #21
+
+Kornel Lesiński <kornel@geekhood.net>	2012-12-13
+
+    Updated readme
+
+Kornel Lesiński <kornel@geekhood.net>	2012-12-13
+
+    Cocoa image reader documentation
+
+Kornel Lesiński <kornel@geekhood.net>	2012-12-13
+
+    Enabled nested parallelism
+
+Kornel Lesiński <kornel@geekhood.net>	2012-11-24
+
+    Buffered logging for openmp
+
+Kornel Lesiński <kornel@geekhood.net>	2012-11-24
+
+    Made main loop parallelizable
+
+Kornel Lesiński <kornel@geekhood.net>	2012-11-24
+
+    Less tricky setting of filenames
+
+Kornel Lesiński <kornel@geekhood.net>	2012-11-24
+
+    Made verbose logging output full
+    lines at a time
+
+Kornel Lesiński <kornel@geekhood.net>	2012-11-26
+
+    Cocoa reader filesize
+
+Kornel Lesiński <kornel@geekhood.net>	2012-11-26
+
+    Makefile for Cocoa build
+
+Kornel Lesiński <kornel@geekhood.net>	2012-11-26
+
+    Cocoa image reader
+
+Kornel Lesiński <kornel@geekhood.net>	2012-11-23
+
+    Removed global verbose flag
+
+Kornel Lesiński <kornel@geekhood.net>	2012-11-20
+
+    Gradual limitation
+
+Kornel Lesiński <kornel@geekhood.net>	2012-11-20
+
+    Limiting max error
+
+porneL <pornel@pornel.net>	2012-09-12
+
+    Signed iterators for OpenMP
+
+Kornel Lesiński <kornel@geekhood.net>	2012-11-20
+
+    Formatting
+
+porneL <pornel@pornel.net>	2012-08-27
+
+    Updated changelog and documentation
+
+porneL <pornel@pornel.net>	2012-08-27
+
+    Cleaned up error codes
+
+porneL <pornel@pornel.net>	2012-08-25
+
+    Writing 24-bit image to stdout
+
+Craig Barnes <cr@igbarn.es>	2012-09-09
+
+    Remove unnecessary -r flag from cp
+
+Craig Barnes <cr@igbarn.es>	2012-09-09
+
+    Add "dist" target to Makefile for
+    building versioned release tarballs
+
+porneL <pornel@pornel.net>	2012-08-25
+
+    Ability to write 24-bit images
+
+porneL <pornel@pornel.net>	2012-08-25
+
+    Renamed image structs
+
+porneL <pornel@pornel.net>	2012-08-25
+
+    Use own constant instead of
+    infinity
+
+porneL <pornel@pornel.net>	2012-08-25
+
+    Don't spend too much time
+    optimizing palette of
+    too-low-quality images
+
+porneL <pornel@pornel.net>	2012-08-24
+
+    More precise target MSE
+
+porneL <pornel@pornel.net>	2011-12-09
+
+    Added -quality argument
+
+porneL <pornel@pornel.net>	2011-11-28
+
+    Target MSE prototype
+
+porneL <pornel@pornel.net>	2012-04-02
+
+    Switched option parsing to
+    getopt_long
+
+porneL <pornel@pornel.net>	2012-08-23
+
+    Better parsing of number of colors
+
+porneL <pornel@pornel.net>	2012-09-08
+
+    Variable channel weights
+
+porneL <pornel@pornel.net>	2012-08-12
+
+    Fixed sorting error caused due to
+    unsigned comparison
+
+porneL <pornel@pornel.net>	2012-07-20
+
+    Don't blur small images
+
+    Lame way to avoid out of bounds
+    memory access.
+
+Craig Barnes <cr@igbarn.es>	2012-06-16
+
+    Minor Makefile fixes
+
+    * Respect DESTDIR convention in
+    "uninstall" target * Use BIN
+    variable instead of literal
+    "pngquant" in "clean" target
+
+Ryan Flynn <parseerror@gmail.com>	2012-07-01
+
+    remove -mtune and -fstrict-overflow
+    params as gcc 4.1.2 doesn't
+    like them
+
+porneL <pornel@pornel.net>	2012-07-19
+
+    Version bump
+
+porneL <pornel@pornel.net>	2012-07-19
+
+    Unsigned-math-safe clamping
+
+porneL <pornel@pornel.net>	2012-05-24
+
+    Unsigned int obsession
+
+porneL <pornel@pornel.net>	2012-05-24
+
+    uint in loops
+
+porneL <pornel@pornel.net>	2012-05-24
+
+    Pointless type tweaking
+
+porneL <pornel@pornel.net>	2012-05-23
+
+    Declare array size in averagepixels
+
+porneL <pornel@pornel.net>	2012-02-26
+
+    Made qsort tail-recursive
+
+porneL <pornel@pornel.net>	2012-02-25
+
+    Piggyback sort info in histogram
+
+porneL <pornel@pornel.net>	2012-02-23
+
+    Splitting box by summing and
+    sorting at the same time
+
+porneL <pornel@pornel.net>	2012-02-21
+
+    Custom partial quicksort for fast
+    median calculation
+
+porneL <pornel@pornel.net>	2012-04-09
+
+    Rewritten man page using semantic
+    markup
+
+porneL <pornel@pornel.net>	2012-04-07
+
+    Using real C99 bool type
+
+porneL <pornel@pornel.net>	2012-04-07
+
+    Removed unused fields from rwpng
+
+porneL <pornel@pornel.net>	2011-08-21
+
+    Option to move transparent color
+    to last index
+
+porneL <pornel@pornel.net>	2012-04-09
+
+    Formatted rwpng error
+
+porneL <pornel@pornel.net>	2012-04-06
+
+    Stopped overwriting CC Makefile
+    variable
+
+porneL <pornel@pornel.net>	2012-02-18
+
+    Header reinclusion guards
+
+porneL <pornel@pornel.net>	2012-03-17
+
+    Tracking input image size
+
+porneL <pornel@pornel.net>	2012-04-02
+
+    Added optimisation to CFLAGS
+
+porneL <pornel@pornel.net>	2012-04-09
+
+    Version bump
+
+porneL <pornel@pornel.net>	2012-04-02
+
+    Fixed deadloop in option
+    parsing. Deprecated more redundant
+    options.
+
+porneL <pornel@pornel.net>	2012-03-17
+
+    Checking existence of destination
+    before processing
+
+porneL <pornel@pornel.net>	2012-03-17
+
+    Removed unused image writing
+    functions
+
+porneL <pornel@pornel.net>	2012-03-18
+
+    Windows cross-compile fix
+
+porneL <pornel@pornel.net>	2012-04-01
+
+    Removed support for partial option
+    names (--flo != --floyd)
+
+porneL <pornel@pornel.net>	2012-04-01
+
+    Allow -foo options with a warning
+    instead of exiting
+
+Jari Aalto <jari.aalto@cante.net>	2012-04-01
+
+    pngquant.c: Check obsolete options
+
+    Signed-off-by: Jari Aalto
+    <jari.aalto@cante.net>
+
+Jari Aalto <jari.aalto@cante.net>	2012-03-31
+
+    Manpage: use standard option
+    syntax. Add missing options.
+
+    Signed-off-by: Jari Aalto
+    <jari.aalto@cante.net>
+
+Jari Aalto <jari.aalto@cante.net>	2012-03-31
+
+    Standard option syntax: -o (short),
+    --option (long)
+
+    Signed-off-by: Jari Aalto
+    <jari.aalto@cante.net>
+
+porneL <pornel@pornel.net>	2012-03-17
+
+    Use contrast map only on images
+    >4px large
+
+porneL <pornel@pornel.net>	2012-03-15
+
+    Dropped support for MSDOS and MSVC
+
+porneL <pornel@pornel.net>	2012-03-15
+
+    Replaced Windows Makefile
+
+porneL <pornel@pornel.net>	2012-02-21
+
+    Simplified channel sort order
+    struct
+
+porneL <pornel@pornel.net>	2012-02-25
+
+    Don't modify input pixels unless
+    working around IE6 bug
+
+porneL <pornel@pornel.net>	2012-02-25
+
+    Special-case transparent pixels
+    in hashing to avoid dirty alpha
+    bloating the histogram
+
+porneL <pornel@pornel.net>	2012-02-21
+
+    Superb-optimized realloc hash
+
+porneL <pornel@pornel.net>	2012-02-21
+
+    Optimized hash table build
+
+porneL <pornel@pornel.net>	2012-02-26
+
+    Version bump
+
+porneL <pornel@pornel.net>	2012-03-01
+
+    std C color difference function
+    using doubles
+
+porneL <pornel@pornel.net>	2012-02-26
+
+    Added always_inline attributes
+    to functions
+
+porneL <pornel@pornel.net>	2012-02-21
+
+    Numeric precision/implicit
+    conversion tweaks
+
+porneL <pornel@pornel.net>	2012-03-12
+
+    Warn when compiled with asserts on
+
+porneL <pornel@pornel.net>	2012-02-11
+
+    Inform when OpenMP is used
+
+porneL <pornel@pornel.net>	2012-02-19
+
+    More portable struct alignment
+
+porneL <pornel@pornel.net>	2011-12-18
+
+    Simpified internal RGB conversion
+
+porneL <pornel@pornel.net>	2012-02-19
+
+    Improved readability of compare
+    functions
+
+porneL <pornel@pornel.net>	2012-02-18
+
+    Less weight on alpha channel
+
+    Boxes varying only by alpha will
+    not be split as often. That lowers
+    quality of black shadows slightly,
+    but leaves more colors for opaque
+    pixels.
+
+porneL <pornel@pornel.net>	2012-02-18
+
+    More precise variance calculation
+
+porneL <pornel@pornel.net>	2012-02-12
+
+    Simplified arguments
+
+porneL <pornel@pornel.net>	2012-02-18
+
+    Static methods
+
+porneL <pornel@pornel.net>	2012-01-23
+
+    Release 1.7.1
+
+porneL <pornel@pornel.net>	2012-01-23
+
+    Renamed hist to histogram
+
+porneL <pornel@pornel.net>	2012-01-23
+
+    Warnings--
+
+porneL <pornel@pornel.net>	2012-01-22
+
+    Parallelized remapping and Voronoi
+    iteration
+
+porneL <pornel@pornel.net>	2012-01-15
+
+    Lock-free threading support in
+    Voronoi iteration
+
+porneL <pornel@pornel.net>	2012-01-21
+
+    Removed duplicate Voronoi iteration
+    code
+
+porneL <pornel@pornel.net>	2012-01-21
+
+    Encapsulated Voronoi iteration
+    state in a struct
+
+porneL <pornel@pornel.net>	2012-01-21
+
+    Avoided re-remapping pixels in
+    Floyd-Steinberg remap
+
+porneL <pornel@pornel.net>	2012-01-15
+
+    Removed pointer
+
+porneL <pornel@pornel.net>	2012-01-15
+
+    Const
+
+porneL <pornel@pornel.net>	2012-01-10
+
+    Release 1.7.0
+
+porneL <pornel@pornel.net>	2012-01-09
+
+    Removed SSE3 checks
+
+porneL <pornel@pornel.net>	2012-01-08
+
+    New transparent color difference
+    algorithm
+
+porneL <pornel@pornel.net>	2012-01-08
+
+    Fixed max dither error treshold
+
+porneL <pornel@pornel.net>	2012-01-09
+
+    Added restrict to pointers
+
+porneL <pornel@pornel.net>	2012-01-08
+
+    Updated usage info
+
+porneL <pornel@pornel.net>	2012-01-08
+
+    Release 1.6.4
+
+porneL <pornel@pornel.net>	2012-01-08
+
+    Variance with lower weight on alpha
+    and "good enough" factor
+
+porneL <pornel@pornel.net>	2012-01-08
+
+    Box splitting decision made based
+    on max channel variance
+
+porneL <pornel@pornel.net>	2012-01-08
+
+    Calculate box variance earlier
+
+porneL <pornel@pornel.net>	2012-01-08
+
+    Added weight to channel variance
+    calculation
+
+porneL <pornel@pornel.net>	2012-01-07
+
+    Increased amount of dithering
+
+porneL <pornel@pornel.net>	2012-01-07
+
+    Fixed dither map
+
+porneL <pornel@pornel.net>	2011-12-21
+
+    Posterization preserving maximum
+    values
+
+porneL <pornel@pornel.net>	2012-01-02
+
+    Use doubles for color averaging
+
+porneL <pornel@pornel.net>	2011-12-20
+
+    Use doubles for box sum and
+    variance
+
+porneL <pornel@pornel.net>	2012-01-03
+
+    Changed default prefix to
+    /usr/local
+
+Merge: 930d346 13c04ff
+porneL <kornel@geekhood.net>	2012-01-03
+
+    Merge pull request #11 from
+    philippec/master
+
+    Minor Makefile update
+
+Philippe Casgrain <github@casgrain.com>	2012-01-03
+
+    Add built executable to .gitignore
+
+Philippe Casgrain <github@casgrain.com>	2012-01-03
+
+    Minor Makefile update for better
+    compatibility
+
+    Sometimes, libpng can be found
+    in /usr/X11 instead of simply
+    /usr. This adds a extra directory
+    to the search path, which has
+    no effect if the directory does
+    not exist.
+
+porneL <pornel@pornel.net>	2012-01-01
+
+    Updated URLs to http://pngquant.org
+
+porneL <pornel@pornel.net>	2011-12-28
+
+    Added C headers to Makefile
+
+porneL <pornel@pornel.net>	2011-12-20
+
+    Silenced warnings
+
+porneL <pornel@pornel.net>	2011-12-21
+
+    Retired FreeBSD makefile in favor
+    of INSTALL instructions
+
+Merge: 7be660d 17f96a5
+porneL <kornel@geekhood.net>	2011-12-28
+
+    Merge pull request #9 from
+    craigbarnes/master
+
+    Makefile improvements
+
+Craig Barnes <cr@igbarn.es>	2011-12-28
+
+    Minor makefile improvements for
+    easier packaging
+
+porneL <pornel@pornel.net>	2011-12-20
+
+    Makefile reads USE_SSE env var
+
+porneL <pornel@pornel.net>	2011-12-20
+
+    Compile flags changed
+
+porneL <pornel@pornel.net>	2011-12-20
+
+    Removed SYSTEMLIBPNG from Makefile
+
+    OS X-specific hack and not really
+    needed anyway.
+
+porneL <pornel@pornel.net>	2011-12-19
+
+    Changelog
+
+porneL <pornel@pornel.net>	2011-12-19
+
+    Fixed SSE3 detection
+
+porneL <pornel@pornel.net>	2011-12-17
+
+    Use exact variance for splitting
+    boxes
+
+porneL <pornel@pornel.net>	2011-12-17
+
+    Compute box average color in
+    advance
+
+porneL <pornel@pornel.net>	2011-12-17
+
+    Makefile uses separate CFLAGSOPT
+    for optimisation-related flags
+
+porneL <pornel@pornel.net>	2011-12-09
+
+    stdc fixes
+
+porneL <pornel@pornel.net>	2011-12-09
+
+    Print final filename in verbose
+    mode
+
+porneL <pornel@pornel.net>	2011-12-09
+
+    Removed inclusion of setjmp.h
+
+porneL <pornel@pornel.net>	2011-12-09
+
+    Silenced libpng warning
+
+porneL <pornel@pornel.net>	2011-12-08
+
+    Version bump
+
+porneL <pornel@pornel.net>	2011-12-07
+
+    Man page updates
+
+Nelson A. de Oliveira <naoliv@debian.org>	2006-12-07
+
+    Debian Man Page
+
+porneL <pornel@pornel.net>	2011-12-07
+
+    Memleaks
+
+porneL <pornel@pornel.net>	2011-12-06
+
+    Allow `LDFLAGS= CFLAGS= make`
+
+porneL <pornel@pornel.net>	2011-11-22
+
+    SSE3 detection
+
+porneL <pornel@pornel.net>	2011-12-06
+
+    -DUSE_SSE=0 to disable SSE
+
+porneL <pornel@pornel.net>	2011-12-05
+
+    Moved pngquant options to a struct
+
+porneL <pornel@pornel.net>	2011-12-05
+
+    Fixed parsing of color/stdin
+    arguments
+
+porneL <pornel@pornel.net>	2011-12-05
+
+    Changed ie_bug flag to
+    min_opaque_val everywhere
+
+porneL <pornel@pornel.net>	2011-11-30
+
+    Typos
+
+porneL <pornel@pornel.net>	2011-12-03
+
+    Comments
+
+porneL <pornel@pornel.net>	2011-12-03
+
+    Changelog update
+
+porneL <pornel@pornel.net>	2011-12-03
+
+    Removed TODO comments
+
+Bartek <sq9mev>	2011-12-03
+
+    Fix to compile against vanilla
+    libpng-1.2.44
+
+porneL <pornel@pornel.net>	2011-11-30
+
+    Nearest search corrects/creates
+    subset palette if necessary
+
+porneL <pornel@pornel.net>	2011-11-30
+
+    Sort subset palette only if present
+
+porneL <pornel@pornel.net>	2011-11-29
+
+    Cached total perceptual weight
+    in hist
+
+porneL <pornel@pornel.net>	2011-11-30
+
+    Added iteration limit
+
+porneL <pornel@pornel.net>	2011-11-22
+
+    Storing remapping error in doubles
+
+porneL <pornel@pornel.net>	2011-11-30
+
+    Fixed scale of displayed mean
+    square error
+
+porneL <pornel@pornel.net>	2011-11-29
+
+    Allocation bug
+
+porneL <pornel@pornel.net>	2011-11-30
+
+    Disabled assert in default builds
+
+porneL <pornel@pornel.net>	2011-11-28
+
+    Updated README
+
+porneL <pornel@pornel.net>	2011-11-23
+
+    Fixed makefiles
+
+porneL <pornel@pornel.net>	2011-11-23
+
+    Fix for libpng not including zlib.h
+    any more
+
+porneL <pornel@pornel.net>	2011-11-23
+
+    Removed linear color search
+
+porneL <pornel@pornel.net>	2011-11-23
+
+    Switched histogram adjustment to
+    new nearest search
+
+porneL <pornel@pornel.net>	2011-11-23
+
+    Switched remapping entirely to new
+    nearest search
+
+porneL <pornel@pornel.net>	2011-11-23
+
+    Removed simultaneous histogram
+    adjustment and Voronoi iteration
+
+porneL <pornel@pornel.net>	2011-11-23
+
+    Fixed initialization
+
+porneL <pornel@pornel.net>	2011-11-22
+
+    Histogram colors posterized and
+    compared as 32-bit integers
+
+porneL <pornel@pornel.net>	2011-11-22
+
+    Hashing and posterization done on
+    integer RGB
+
+porneL <pornel@pornel.net>	2011-11-23
+
+    Fixed weights
+
+porneL <pornel@pornel.net>	2011-11-21
+
+    Headers added
+
+porneL <pornel@pornel.net>	2011-11-23
+
+    Fixed subpalette for smaller
+    numbers of colors
+
+porneL <pornel@pornel.net>	2011-11-21
+
+    Using fast search in floyd
+    dithering
+
+porneL <pornel@pornel.net>	2011-11-20
+
+    Using fast search in Voronoi
+    iteration
+
+    Increased default number of
+    iterations
+
+porneL <pornel@pornel.net>	2011-11-20
+
+    Added IEbug support to nearest
+    search
+
+porneL <pornel@pornel.net>	2011-11-20
+
+    Dynamic memory allocation in
+    nearest search
+
+porneL <pornel@pornel.net>	2011-11-19
+
+    Integration
+
+porneL <pornel@pornel.net>	2011-09-25
+
+    Storing representative subpalette
+
+porneL <pornel@pornel.net>	2011-11-20
+
+    Tolerance for distance
+    miscalculation
+
+porneL <pornel@pornel.net>	2011-09-25
+
+    Faster nearest neighbor search
+
+    Based on point-centered quarter
+    circle
+
+porneL <pornel@pornel.net>	2011-11-20
+
+    Version bump
+
+porneL <pornel@pornel.net>	2011-11-20
+
+    Display remapping error including
+    perceptual weighting from histogram
+
+porneL <pornel@pornel.net>	2011-11-20
+
+    Fixed total_error in fast modes
+
+porneL <pornel@pornel.net>	2011-11-20
+
+    Extracted function
+
+porneL <pornel@pornel.net>	2011-11-20
+
+    Voronoi iteration reporting last
+    error
+
+porneL <pornel@pornel.net>	2011-11-20
+
+    Moved Voronoi iteration functions
+    to separate file
+
+porneL <pornel@pornel.net>	2011-11-20
+
+    Moved best_color_index
+
+porneL <pornel@pornel.net>	2011-11-19
+
+    Moved headers around
+
+porneL <pornel@pornel.net>	2011-11-19
+
+    Moved mempool functions out
+    of pam.c
+
+porneL <pornel@pornel.net>	2011-11-20
+
+    Fixed uninitialized field
+
+porneL <pornel@pornel.net>	2011-11-20
+
+    Const
+
+porneL <pornel@pornel.net>	2011-11-20
+
+    Comments
+
+porneL <pornel@pornel.net>	2011-11-19
+
+    Fixed off-by-one and rounding error
+    in variance calculation
+
+porneL <pornel@pornel.net>	2011-10-29
+
+    Version 1.6
+
+porneL <pornel@pornel.net>	2011-10-18
+
+    Map for dithering
+
+porneL <pornel@pornel.net>	2011-10-19
+
+    Put upper limit on dithering error
+    to prevent odd noisy pixels
+
+porneL <pornel@pornel.net>	2011-10-18
+
+    Removed tracking of remapping error
+    from floyd
+
+    It was bogus anyway
+
+porneL <pornel@pornel.net>	2011-10-16
+
+    Avoid dithering edges
+
+porneL <pornel@pornel.net>	2011-10-29
+
+    Updated Makefiles
+
+porneL <pornel@pornel.net>	2011-10-16
+
+    Lower importance of pixels in noisy
+    areas by building full noise map
+
+porneL <pornel@pornel.net>	2011-10-18
+
+    Changed random() to
+    lousy-but-portable rand()
+
+porneL <pornel@pornel.net>	2011-10-18
+
+    Removed problematic u_register_t
+    typedef
+
+Merge: e78441a ab29816
+porneL <kornel@geekhood.net>	2011-10-18
+
+    Merge pull request #5 from
+    UnderCooled/master
+
+    Add FreeBSD support
+
+UnderCooled <linnet9999@gmail.com>	2011-10-18
+
+    Add FreeBSD support
+
+porneL <pornel@pornel.net>	2011-09-25
+
+    Extracted histogram feedback
+    loop code
+
+porneL <pornel@pornel.net>	2011-09-25
+
+    Extracted palette building
+
+porneL <pornel@pornel.net>	2011-09-25
+
+    Struct for colormap
+
+porneL <pornel@pornel.net>	2011-09-29
+
+    Fixed remapping with IE bug
+
+porneL <pornel@pornel.net>	2011-09-25
+
+    Version bump
+
+porneL <pornel@pornel.net>	2011-09-25
+
+    Moved finalization of Voronoi
+    iteration (would break without
+    feedback loop)
+
+    Switched to perceptual weight.
+
+porneL <pornel@pornel.net>	2011-09-25
+
+    Separated Voronoi iteration
+    function. Switched to perceptual
+    weight.
+
+porneL <pornel@pornel.net>	2011-09-25
+
+    Avoid improving colors that are
+    good enough already
+
+porneL <pornel@pornel.net>	2011-09-25
+
+    Increased max number of colors in
+    fastest modes
+
+porneL <pornel@pornel.net>	2011-09-24
+
+    Disabled filters
+
+porneL <pornel@pornel.net>	2011-09-24
+
+    Removed code duplication
+
+porneL <pornel@pornel.net>	2011-09-21
+
+    Split function
+
+porneL <pornel@pornel.net>	2011-09-20
+
+    Struct for histogram
+
+porneL <pornel@pornel.net>	2011-09-24
+
+    Removed unused code
+
+porneL <pornel@pornel.net>	2011-09-20
+
+    Removed irrelevant comments
+
+porneL <pornel@pornel.net>	2011-09-20
+
+    Removed hist_item from
+    acolorhist_list_item
+
+porneL <pornel@pornel.net>	2011-09-18
+
+    Removed needlessly complicated
+    comparison macro
+
+porneL <pornel@pornel.net>	2011-09-18
+
+    Removed PAM_SCALE macro
+
+porneL <pornel@pornel.net>	2011-09-18
+
+    Disabled weighting with contrast
+    in fastest modes
+
+porneL <pornel@pornel.net>	2011-09-11
+
+    Less weight on pixels in
+    high-contrast areas
+
+porneL <pornel@pornel.net>	2011-09-18
+
+    Version bump
+
+porneL <pornel@pornel.net>	2011-09-18
+
+    Removed hacky hash function
+
+porneL <pornel@pornel.net>	2011-09-18
+
+    Removed rubbish
+
+porneL <pornel@pornel.net>	2011-09-18
+
+    Constness
+
+porneL <pornel@pornel.net>	2011-09-13
+
+    Reporting MSE
+
+porneL <pornel@pornel.net>	2011-09-11
+
+    Avoiding recalculation of mapping
+    error
+
+porneL <pornel@pornel.net>	2011-09-13
+
+    Better number of trials for speed=6
+
+porneL <pornel@pornel.net>	2011-09-18
+
+    Micro optimisation
+
+porneL <pornel@pornel.net>	2011-09-11
+
+    Removed dummy condition
+
+Craig Barnes <cr@igbarn.es>	2011-09-06
+
+    Add install and uninstall targets
+    to Makefile
+
+Craig Barnes <cr@igbarn.es>	2011-09-06
+
+    Make 'all' and 'clean' targets
+    phony
+
+porneL <pornel@pornel.net>	2011-09-10
+
+    Version bump
+
+porneL <pornel@pornel.net>	2011-09-12
+
+    Corrected messages output in
+    verbose mode
+
+porneL <pornel@pornel.net>	2011-09-12
+
+    Stopped reusing hist_item for
+    colormap
+
+porneL <pornel@pornel.net>	2011-09-10
+
+    Renamed value to adjusted_weight,
+    num_pixels to perceptual_weight
+
+porneL <pornel@pornel.net>	2011-09-10
+
+    Additional Voronoi iteration from
+    remapping to palette
+
+porneL <pornel@pornel.net>	2011-09-09
+
+    Correcting palette colors by
+    averaging matches done in feedback
+    loop
+
+porneL <pornel@pornel.net>	2011-09-10
+
+    Split palette sort and set
+
+porneL <pornel@pornel.net>	2011-09-08
+
+    Alloc boxes with C99 array
+
+porneL <pornel@pornel.net>	2011-09-12
+
+    Warnings--
+
+porneL <pornel@pornel.net>	2011-09-11
+
+    Changed RGBA similarity algorithm
+
+porneL <pornel@pornel.net>	2011-09-07
+
+    Allowing more color error
+    propagation in transparent areas
+
+porneL <pornel@pornel.net>	2011-09-07
+
+    Reordered fs error propagation
+
+porneL <pornel@pornel.net>	2011-09-07
+
+    Split remap_to_palette into
+    fs/non-fs versions, removed ancient
+    microoptimisations
+
+porneL <pornel@pornel.net>	2011-09-10
+
+    Split by variance
+
+porneL <pornel@pornel.net>	2011-09-07
+
+    Refactored variance function
+
+porneL <pornel@pornel.net>	2011-09-07
+
+    Moved median cut implementation to
+    a separate file
+
+porneL <pornel@pornel.net>	2011-09-07
+
+    Moved colordifference to pam.h
+
+porneL <pornel@pornel.net>	2011-09-07
+
+    Removed Trace macro
+
+porneL <pornel@pornel.net>	2011-09-07
+
+    "round" constants for iebug
+
+porneL <pornel@pornel.net>	2011-08-29
+
+    Added include for register_t
+
+porneL <pornel@pornel.net>	2011-08-29
+
+    Readme fixes
+
+porneL <pornel@pornel.net>	2011-08-24
+
+    Expanded README
+
+porneL <pornel@pornel.net>	2011-08-24
+
+    Changed README to Markdown
+
+porneL <pornel@pornel.net>	2011-08-23
+
+    -version and -h
+
+porneL <pornel@pornel.net>	2011-08-23
+
+    Cleanups and comments
+
+porneL <pornel@pornel.net>	2011-08-21
+
+    Changed -s to -speed
+
+porneL <pornel@pornel.net>	2011-08-22
+
+    Simplified repetitive code
+
+porneL <pornel@pornel.net>	2011-08-21
+
+    Extracted image writing out of
+    pngquant function
+
+porneL <pornel@pornel.net>	2011-08-21
+
+    Extracted image reading out of
+    pngquant function
+
+porneL <pornel@pornel.net>	2011-08-21
+
+    remap_to_palette cannot fail
+
+porneL <pornel@pornel.net>	2011-08-21
+
+    Eliminated remap array
+
+porneL <pornel@pornel.net>	2011-08-21
+
+    Sort palette by popularity
+
+porneL <pornel@pornel.net>	2011-08-21
+
+    Popularity feedback tweaked
+
+porneL <pornel@pornel.net>	2011-08-16
+
+    Aligned pixel values for SSE
+
+porneL <pornel@pornel.net>	2011-08-21
+
+    Version bump
+
+porneL <pornel@pornel.net>	2011-08-22
+
+    gitignore
+
+porneL <pornel@pornel.net>	2011-08-14
+
+    Allocating hash table using
+    memory pool
+
+porneL <pornel@pornel.net>	2011-08-15
+
+    Larger hash size
+
+porneL <pornel@pornel.net>	2011-08-14
+
+    Increased minimum number of colors
+
+porneL <pornel@pornel.net>	2011-08-14
+
+    Removed sorting of boxes and
+    mergesort with it
+
+porneL <pornel@pornel.net>	2011-08-14
+
+    Removed dynamic qsort/mergesort
+    switch
+
+porneL <pornel@pornel.net>	2011-08-14
+
+    Fixed condition for use of
+    mergesort
+
+porneL <pornel@pornel.net>	2011-08-14
+
+    Assert SSE accuracy
+
+porneL <pornel@pornel.net>	2011-08-14
+
+    Fixed RGBA order assumption in
+    weightedcompare* functions
+
+porneL <pornel@pornel.net>	2011-08-14
+
+    Color search optimized using SSE3
+
+porneL <pornel@pornel.net>	2011-08-14
+
+    Fixed channel order selection
+
+porneL <pornel@pornel.net>	2011-08-14
+
+    Formatting & cleanups
+
+porneL <pornel@pornel.net>	2011-08-14
+
+    Revert "Fixed var name"
+
+    This reverts commit
+    311fd4146ad9d560d0e2a2920dc0515f32c52ef7.
+
+porneL <pornel@pornel.net>	2011-08-14
+
+    Reduced number of feedback loops,
+    skipping completely if speed > 5
+
+porneL <pornel@pornel.net>	2011-08-14
+
+    SSE optimisations for closest color
+
+porneL <pornel@pornel.net>	2011-08-14
+
+    Changed internal format from RGBA
+    to ARGB
+
+porneL <pornel@pornel.net>	2011-08-14
+
+    Optimisation
+
+porneL <pornel@pornel.net>	2011-08-14
+
+    Removed assert code from runtime
+
+porneL <pornel@pornel.net>	2011-08-14
+
+    Fixed var name
+
+porneL <pornel@pornel.net>	2011-08-14
+
+    Version bump
+
+porneL <pornel@pornel.net>	2011-08-14
+
+    Speed/quality trade-off option
+
+porneL <pornel@pornel.net>	2011-08-14
+
+    Transparent pixel optimisation
+
+porneL <pornel@pornel.net>	2011-08-14
+
+    Eliminated "internal logic error"
+    return value
+
+porneL <pornel@pornel.net>	2011-05-29
+
+    Compiling in gnu99 for
+    compatibility with system headers
+    on Debian Lenny
+
+porneL <pornel@pornel.net>	2011-05-29
+
+    Conditional use of mergesort only
+    on BSD and Darwin
+
+porneL <pornel@pornel.net>	2011-03-21
+
+    Optimised comparison functions
+
+porneL <pornel@pornel.net>	2011-03-21
+
+    Using qsort for smaller lists
+
+porneL <pornel@pornel.net>	2011-03-21
+
+    Verbose progress
+
+porneL <pornel@pornel.net>	2011-03-13
+
+    Repeating feedback loop multiple
+    times
+
+porneL <pornel@pornel.net>	2011-03-15
+
+    Feedback from color averaging stage
+
+porneL <pornel@pornel.net>	2011-03-13
+
+    Median with feedback
+
+porneL <pornel@pornel.net>	2011-03-13
+
+    Closest color search moved to
+    function
+
+porneL <pornel@pornel.net>	2011-03-20
+
+    Stricter rwpng_ function prototypes
+
+porneL <pornel@pornel.net>	2011-03-09
+
+    Boilerplate update and version bump
+
+porneL <pornel@pornel.net>	2011-03-07
+
+    Use gamma 2.2 internally
+
+porneL <pornel@pornel.net>	2011-03-07
+
+    Default to gamma rounded PNG way
+
+porneL <pornel@pornel.net>	2011-03-13
+
+    INSTALL fix
+
+porneL <pornel@pornel.net>	2011-03-11
+
+    Changed Makefile to use system's
+    libpng (at least on OS X)
+
+porneL <pornel@pornel.net>	2011-03-06
+
+    Release 1.3b2
+
+porneL <pornel@pornel.net>	2011-03-06
+
+    64-bit-optimized compare in
+    PAM_EQUAL
+
+porneL <pornel@pornel.net>	2011-03-06
+
+    Bit-twiddling tricks to speed up
+    color hash (esp. on 64-bit)
+
+porneL <pornel@pornel.net>	2011-03-06
+
+    Switched to mergesort since most
+    colors are already sorted
+
+porneL <pornel@pornel.net>	2011-03-06
+
+    Sorting multiple channels
+    (dimensions)
+
+porneL <pornel@pornel.net>	2011-03-06
+
+    Removed valuecompare
+
+porneL <pornel@pornel.net>	2011-03-06
+
+    Renamed acolorhist_vector to
+    hist_item[]
+
+porneL <pornel@pornel.net>	2011-03-06
+
+    Moved histogram out of mediancut
+
+porneL <pornel@pornel.net>	2011-03-06
+
+    Switched gamma computation to float
+
+porneL <pornel@pornel.net>	2011-03-05
+
+    Switched to simple /255 division
+
+porneL <pornel@pornel.net>	2011-03-04
+
+    Removed blending with background
+
+porneL <pornel@pornel.net>	2011-03-04
+
+    Using variance instead of delta to
+    find dimension to split
+
+porneL <pornel@pornel.net>	2011-02-27
+
+    Use median as expected value for
+    variance
+
+porneL <pornel@pornel.net>	2011-02-27
+
+    Split boxes by popularity and
+    variance
+
+porneL <pornel@pornel.net>	2011-02-27
+
+    Weighted box splitting
+
+porneL <pornel@pornel.net>	2011-02-27
+
+    Doubles to floats
+
+porneL <pornel@pornel.net>	2011-02-26
+
+    Moved similarity into a function
+
+porneL <pornel@pornel.net>	2011-03-05
+
+    Fixed conversion self-check for
+    premultiplied colors
+
+porneL <pornel@pornel.net>	2011-03-06
+
+    Corrected gamma literal in rwpng
+
+porneL <pornel@pornel.net>	2011-02-26
+
+    Improved color similarity for
+    premultiplied colors
+
+porneL <pornel@pornel.net>	2011-02-26
+
+    Removed premultiplied blending
+    of background
+
+porneL <pornel@pornel.net>	2011-02-26
+
+    Premultiplied alpha
+
+porneL <pornel@pornel.net>	2011-02-27
+
+    Bumped version to 1.3a
+
+porneL <pornel@pornel.net>	2011-02-24
+
+    Differentiate between signature
+    and I/O error
+
+porneL <pornel@pornel.net>	2011-02-20
+
+    Copied set_binary_mode from pngnq
+
+porneL <pornel@pornel.net>	2011-02-26
+
+    Removed other color averaging
+    options
+
+porneL <pornel@pornel.net>	2011-02-27
+
+    Increased size of histogram to 1M
+
+porneL <pornel@pornel.net>	2011-02-17
+
+    Moved colormap calculation inside
+    mediancut()
+
+porneL <pornel@pornel.net>	2011-02-16
+
+    Always use gamma 2.2 for output
+
+porneL <pornel@pornel.net>	2011-02-16
+
+    Trimmed rwpng structs
+
+porneL <pornel@pornel.net>	2011-02-16
+
+    Separated mainprog_info into
+    read_info and write_info
+
+porneL <pornel@pornel.net>	2011-02-16
+
+    Separating rwpng struct for reading
+    and writing
+
+porneL <pornel@pornel.net>	2011-02-16
+
+    Removed error reporting via field
+    in global shared data structure.
+
+porneL <pornel@pornel.net>	2011-02-16
+
+    Avoiding use of pointer to pointer.
+
+porneL <pornel@pornel.net>	2011-02-16
+
+    Simplified verbose logging
+
+porneL <pornel@pornel.net>	2011-02-16
+
+    Extracted loading, histogram and
+    ie_bug alpha to functions.
+
+porneL <pornel@pornel.net>	2011-02-15
+
+    Moved image writing to a function.
+
+porneL <pornel@pornel.net>	2011-02-15
+
+    Extracted outname generation to
+    function. Removed length limit.
+
+porneL <pornel@pornel.net>	2011-02-15
+
+    Removed writing of image rows from
+    remap function. Whole bitmaps are
+    written at once.
+
+porneL <pornel@pornel.net>	2011-02-15
+
+    Copied rwpng from pngnq
+
+porneL <pornel@pornel.net>	2011-02-15
+
+    Ignore
+
+porneL <pornel@pornel.net>	2011-02-06
+
+    Bumped version
+
+porneL <pornel@pornel.net>	2011-02-05
+
+    Fixed background blending (again)
+
+porneL <pornel@pornel.net>	2011-02-05
+
+    Changed RGB range from 0…255 to
+    1…256 to avoid rounding error
+    when scaling
+
+porneL <pornel@pornel.net>	2011-02-03
+
+    Updated versions in INSTALL
+
+porneL <pornel@pornel.net>	2011-02-03
+
+    Fixed install instructions
+
+porneL <pornel@pornel.net>	2011-02-02
+
+    Color precision self-check
+
+porneL <pornel@pornel.net>	2011-02-02
+
+    Fixed background blending
+
+porneL <pornel@pornel.net>	2011-02-02
+
+    Eliminated needless double
+    precision
+
+porneL <pornel@pornel.net>	2011-02-02
+
+    Fixed colorimportance precision
+    in blending. Using MAX(a1,a2)
+    in similarity.
+
+porneL <pornel@pornel.net>	2011-01-30
+
+    Clamp before applying gamma
+
+porneL <pornel@pornel.net>	2011-02-02
+
+    Removed unused makefiles. Updated
+    (probably broken anyway) win32
+    makefile.
+
+porneL <pornel@pornel.net>	2011-02-02
+
+    ush typedef removed
+
+porneL <pornel@pornel.net>	2011-01-30
+
+    Background blending done in 0..1
+
+porneL <pornel@pornel.net>	2011-01-30
+
+    Promotion of saturated colors done
+    on 0..1 space
+
+porneL <pornel@pornel.net>	2011-01-30
+
+    Added minimal base colorimportance
+    to aid dithering of transparent
+    pixels
+
+porneL <pornel@pornel.net>	2011-01-30
+
+    Updated Makefile
+
+porneL <pornel@pornel.net>	2011-01-30
+
+    Version bump
+
+porneL <pornel@pornel.net>	2011-01-30
+
+    Sorting final palette by popularity
+
+porneL <pornel@pornel.net>	2011-01-30
+
+    Sorting colors by secondary
+    dimension
+
+porneL <pornel@pornel.net>	2011-01-30
+
+    Added gamma correction in
+    colorspace conversions
+
+porneL <pornel@pornel.net>	2011-01-29
+
+    Added gamma argument to to_rgb/to_f
+
+porneL <pornel@pornel.net>	2011-01-29
+
+    Got rid of ulg typedef
+
+porneL <pornel@pornel.net>	2011-01-29
+
+    Changed rounding/clamping
+
+porneL <pornel@pornel.net>	2011-01-21
+
+    Fixed initialisation of error
+    diffusion
+
+porneL <pornel@pornel.net>	2011-01-21
+
+    Blend colors in premultiplied alpha
+
+porneL <pornel@pornel.net>	2011-01-20
+
+    Changed alpha coefficient from 2
+    to 1
+
+porneL <pornel@pornel.net>	2011-01-21
+
+    Fixed penalty for breaking IE
+    transparency (not so huge, not
+    added when not using -iebug)
+
+porneL <pornel@pornel.net>	2011-01-16
+
+    Changed internal color range
+    to 0..1
+
+porneL <pornel@pornel.net>	2011-01-20
+
+    Type-safe, although slightly bogus,
+    error codes.
+
+porneL <pornel@pornel.net>	2011-01-20
+
+    Const char filenames
+
+porneL <pornel@pornel.net>	2011-01-20
+
+    Removed color lookup hash
+
+    It's significantly faster to
+    recompute similarity than to cache
+    it in memory.
+
+porneL <pornel@pornel.net>	2011-01-20
+
+    Restored old hash function
+
+    Turns out order or colors in hash
+    table is significant, and tweaks
+    in the hash function make it hard
+    to compare results across versions.
+
+porneL <pornel@pornel.net>	2011-01-16
+
+    Use explicit to_rgb for off-center
+    color weighting
+
+porneL <pornel@pornel.net>	2011-01-16
+
+    Formatting
+
+porneL <pornel@pornel.net>	2011-01-16
+
+    Extracted remapping into separate
+    function
+
+porneL <pornel@pornel.net>	2011-01-16
+
+    Explicit conversion from internal
+    color to palette
+
+porneL <pornel@pornel.net>	2011-01-16
+
+    Moved palette conversion to
+    a function
+
+porneL <pornel@pornel.net>	2011-01-16
+
+    Dropped support for (defunct)
+    mapfile and sort by luminance
+
+porneL <pornel@pornel.net>	2011-01-16
+
+    Extracted averagecolors and
+    centerbox methods
+
+porneL <pornel@pornel.net>	2011-01-16
+
+    Stopped rounding averages
+
+porneL <pornel@pornel.net>	2011-01-16
+
+    Switched color processing to
+    floating point. Turned hashpixel
+    macro into inline function
+
+porneL <pornel@pornel.net>	2011-01-16
+
+    Changed diffusion to use struct
+    instead of separate variables
+
+porneL <pornel@pornel.net>	2011-01-16
+
+    Floating-point used for error
+    diffusion
+
+porneL <pornel@pornel.net>	2011-01-16
+
+    A bit of constness
+
+porneL <pornel@pornel.net>	2011-01-16
+
+    Renamed apixel to rgb_pixel
+
+porneL <pornel@pornel.net>	2011-01-16
+
+    Diffusion not modifying source
+    image
+
+porneL <pornel@pornel.net>	2011-01-16
+
+    Simplified allocation of hash table
+
+porneL <pornel@pornel.net>	2011-01-15
+
+    Removed maxval
+
+porneL <pornel@pornel.net>	2011-01-16
+
+    Moved color precision truncation
+    to hash table
+
+porneL <pornel@pornel.net>	2011-01-16
+
+    Slightly faster & efficient hashing
+
+porneL <pornel@pornel.net>	2011-01-16
+
+    Moved pam_* helper functions to a
+    separate file
+
+porneL <pornel@pornel.net>	2011-01-15
+
+    Removed unused contrast computation
+
+porneL <pornel@pornel.net>	2011-01-16
+
+    Removed use of uch/ulg typedefs
+    from rwpng.
+
+porneL <pornel@pornel.net>	2011-01-16
+
+    Removed unnecessary pm_allocrow
+    and malloc casts.
+
+porneL <pornel@pornel.net>	2011-01-15
+
+    Removed low-memory fallback.
+
+porneL <pornel@pornel.net>	2011-01-15
+
+    Constants for error codes
+
+porneL <pornel@pornel.net>	2011-01-15
+
+    Added assertions
+
+porneL <pornel@pornel.net>	2011-01-15
+
+    Updated function declarations
+    from '70s to '80s style. Dropping
+    support for DEC PDP & VAX.
+
+porneL <pornel@pornel.net>	2011-01-15
+
+    Formatting
+
+porneL <pornel@pornel.net>	2011-01-15
+
+    Removed PAM_SETA macro, cleaned up
+    dereference syntax.
+
+porneL <pornel@pornel.net>	2011-01-15
+
+    Removed PAM_GET[RGB] macros
+
+porneL <pornel@pornel.net>	2010-11-30
+
+    Ignores
+
+porneL <pornel@pornel.net>	2010-11-30
+
+    ANSI function definition
+
+porneL <pornel@pornel.net>	2010-11-30
+
+    Updated for libpng1.4.4
+
+porneL <pornel@pornel.net>	2010-11-30
+
+    Warnings--
+
+Ernst de Haan <ernst@pensioenpage.com>	2009-09-18
+
+    Added new INSTALL file, explaining
+    how to build pngquant.
+
+Ernst de Haan <ernst@pensioenpage.com>	2009-09-18
+
+    Minor textual change in README.
+
+Ernst de Haan <ernst@pensioenpage.com>	2009-09-18
+
+    Updated and simplified README
+    file, split out LICENSE file in
+    the process.
+
+Ernst de Haan <ernst@pensioenpage.com>	2009-09-18
+
+    Updated and simplified README
+    file, split out LICENSE file in
+    the process.
+
+porneL <porneL@Aimac.local>	2009-09-17
+
+    Hello World
