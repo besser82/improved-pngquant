@@ -1,0 +1,13 @@
+#!/bin/sh
+set -e
+
+AUTOTOOL=`which autoreconf`
+
+if [ "x$AUTOTOOL" != "" ]
+then
+  $AUTOTOOL -vfi
+  exit 0
+fi
+
+echo "You must have GNU autotools installed, first!"
+exit 1
