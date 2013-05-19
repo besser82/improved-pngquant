@@ -1,0 +1,16 @@
+###
+# Pkg-Config file for @PROJECT@
+###
+
+prefix=@PREFIX@
+exec_prefix=${prefix}
+
+datarootdir=${exec_prefix}/@DATAROOTDIR@
+libdir=${exec_prefix}/@INSTALL_LIB_DIR@
+includedir=${exec_prefix}/@INSTALL_INCLUDE_DIR@
+
+Name: @PROJECTNAME@
+Version: @VERSION@
+Description: @PROJECTNAME@ - @SUMMARY@
+Libs: -l@TARGETLIB@
+Cflags: -I${includedir}
